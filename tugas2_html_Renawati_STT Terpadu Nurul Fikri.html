@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tugas 2</title>
+</head>
+<body bgcolor="#FFDEAD">
+<table align="center" border="1" width="50%"
+       cellpadding="15" cellspacing="2">
+	<thead>
+		<tr bgcolor="#CD853F">
+			<th>HARI</th>
+			<th>JAM</th>
+			<th>MATA KULIAH</th>
+			<th>DOSEN</th>
+			<th>RUANG</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr bgcolor="#CD853F">
+			<th colspan="5">JADWAL DAPAT BERUBAH SEWAKTU-WAKTU</th>
+		</tr>
+	</tfoot>
+	<tbody bgcolor="#D2B48C">
+		<tr>
+			<td rowspan="2" align="center">SENIN</td>
+			<td width="20%">08:00-10:00</td>
+			<td>Kajian Islam</td>
+			<td align="left">Ust.Anwar Nashihin, Lc.</td>
+			<td align="left">Ruang Teori</td>
+		</tr>
+		<tr>
+			<td>10:00 - 12:00</td>
+			<td>Aplikasi perkantoran</td>
+			<td align="left">Drs. MGS, M.M.</td>
+			<td rowspan="5" align="left">Ruang 1</td>
+		</tr>
+		<tr>
+			<td rowspan="2" align="center">SELASA</td>
+			<td>08:00 - 10:00</td>
+			<td>Linux Fundamental</td>
+			<td align="left">Hendy Saptono, S.Si, M.Kom</td>
+		</tr>
+		<tr>
+			<td>10:00 - 12:00</td>
+			<td>HTML, CSS & JavaScript</td>
+			<td rowspan="3" align="left">Sirojul Munir, S.Si. M.Kom.</td>
+		</tr>
+		<tr>
+			<td rowspan="2" align="center">RABU</td>
+			<td>08:00 - 10:00</td>
+			<td>Basis Data</td>
+		</tr>
+		<tr>
+			<td>10:00 - 12:00</td>
+			<td>Algoritma & Pemrograman</td>
+		</tr>
+		<tr>
+		<td rowspan="2" align="center">KAMIS</td>
+			<td>08:00 - 10:00</td>
+			<td>Kewirausahaan & Pengembangan Diri</td>
+			<td align="left">Khoirul Umam, S,pd.</td>
+			<td rowspan="2" align="left">Ruang Teori</td>
+		</tr>
+		<tr>
+			<td>10:00 - 12:00</td>
+			<td>Bahasa Inggris</td>
+			<td align="left">Drs.Mahfudz</td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+<br/>
+
+<table align="center" width="35%" cellpadding="15" cellspacing="0">
+    <form name="registerproduk">
+	<thead>
+		<tr bgcolor="#CD853F">
+			<th colspan="2">FORM REGISTER PRODUK</th>
+		</tr>
+	</thead>
+	<tbody bgcolor="#D2B48C">
+		<tr>
+			<td width="30%">Nama Produk</td>
+			<td>
+				<input type="text" name="nama" size="37"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Jenis Produk</td>
+			<td>
+				<select name="produk" width="30%">
+					<option value=""  selected>-- Kategori Produk--</option>
+					<option value="Minuman">Pakaian dan Aksesoris</option>
+					<option value="Makanan">Kecantikan dan Perawatan Pribadi</option>
+					<option value="Pakaian">Rumah Tangga</option>
+					<option value="Elektronik">Makanan dan Minuman</option>
+					<option value="Aksesoris">Otomotif</option>
+					<option value="Aksesoris">Olahraga dan Rekreasi</option>
+					<option value="Aksesoris">Kesehatan</option>
+					<option value="Aksesoris">Elektronik Rumah Tangga</option>
+					<option value="Aksesoris">Buku dan Media</option>
+					<option value="Aksesoris">Tekstil</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td width="30%">Harga</td>
+			<td>
+				<input type="text" name="nama" size="37"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="30%">Stok</td>
+			<td>
+				<input type="text" name="nama" size="37"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="30%">Photo</td>
+			<td>
+				<input type="text" name="nama" size="37"/>
+			</td>
+		</tr>
+	</tbody>
+    <tfoot>
+		<tr bgcolor="#CD853F">
+			<th colspan="2">
+				<input type="submit" name="simpan" value="Kirim"/>
+				&nbsp;&nbsp;
+				<input type="reset" name="batal" value="Batal"/>
+			</th>
+		</tr>
+	</tfoot>
+</table>
+</form>
+<br/>
+<br/>
+<form name="registermember">
+<table align="center" width="40%" cellpadding="25" cellspacing="0">
+	<thead>
+		<tr bgcolor="#CD853F">
+			<th colspan="2">FORM REGISTER MEMBER</th>
+		</tr>
+	</thead>
+	
+	<tbody bgcolor="#D2B48C" >
+		<tr>
+			<td width="30%">Username</td>
+			<td>
+				<input type="text" name="name" size="40"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>
+				<input type="password" name="password" size="40"/>
+			</td>
+		</tr>
+	</tbody>
+    <tfoot>
+		<tr bgcolor="#CD853F">
+			<th colspan="2">
+				<input type="submit" name="masuk" value="masuk"/>
+				&nbsp;&nbsp;
+				<input type="reset" name="batal" value="Batal"/>
+			</th>
+		</tr>
+	</tfoot>
+</table>
+</form>
+</body>
+</html>
